@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casa Club del Académico</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="brand">
+        <span class="brand-mark">C</span>
+        <div>
+          <h1>Casa Club del Académico</h1>
+          <p>Restaurante · Eventos · Celebraciones</p>
+        </div>
+      </div>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" id="navToggle">Menú</button>
+      <nav class="main-nav" id="mainNav" aria-label="Menú principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#carta">Carta</a>
+        <a href="#promociones">Promociones</a>
+        <a href="#galeria">Galería</a>
+        <a href="#reservaciones">Reservaciones</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Sabores y momentos únicos</span>
+          <h2>Tu espacio ideal para cenar, celebrar y convivir en México</h2>
+          <p>Descubre un restaurante con gastronomía auténtica, ambientes cálidos y espacios adaptados para bodas, reuniones corporativas y fiestas familiares.</p>
+          <div class="hero-actions">
+            <a href="#reservaciones" class="btn btn-primary">Reserva tu evento</a>
+            <a href="#carta" class="btn btn-secondary">Ver menú</a>
+            <button class="btn btn-secondary" id="heroInfoButton" type="button">Ver detalles</button>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-top">
+            <p>Casa Club del Académico</p>
+            <strong>Ambiente mexicano, atención personalizada</strong>
+          </div>
+          <div class="hero-card-details">
+            <div>
+              <span>📍</span>
+              <p>Ubicado en el corazón de la ciudad</p>
+            </div>
+            <div>
+              <span>🍽</span>
+              <p>Cocina artesanal y platillos tradicionales</p>
+            </div>
+            <div>
+              <span>🎉</span>
+              <p>Salones y jardines para banquetes y eventos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-light" id="nosotros">
+      <div class="container split-grid">
+        <div>
+          <span class="eyebrow">Nosotros</span>
+          <h2>Bienvenidos a un lugar donde cada momento se celebra</h2>
+          <p>En Casa Club del Académico ofrecemos una experiencia completa: platos mexicanos con toque contemporáneo, espacios elegantes para eventos y un equipo dedicado a cuidar cada detalle.</p>
+          <ul class="feature-list">
+            <li>Menú de temporada con ingredientes locales</li>
+            <li>Salón principal, terraza y jardín privado</li>
+            <li>Servicio para bodas, bautizos, graduaciones y cenas corporativas</li>
+          </ul>
+        </div>
+        <div class="card-card">
+          <div class="card-image"></div>
+          <div class="card-content">
+            <h3>Momentos que merecen un lugar especial</h3>
+            <p>Desde una cena íntima hasta un evento para 200 personas, contamos con instalaciones climatizadas y una propuesta de decoración inspirada en el estilo mexicano contemporáneo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-dark" id="eventos">
+      <div class="container">
+        <span class="eyebrow light">Eventos</span>
+        <h2>Organizamos cada celebración con pasión</h2>
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>Banquetes</h3>
+            <p>Menús personalizados para bodas, aniversarios y eventos corporativos.</p>
+            <button class="btn btn-secondary service-detail-btn" type="button" data-title="Banquetes" data-description="Menús personalizados para bodas, aniversarios y eventos corporativos.">Ver detalles</button>
+          </article>
+          <article class="service-card">
+            <h3>Cenas especiales</h3>
+            <p>Experiencias gastronómicas para grupos pequeños y reuniones privadas.</p>
+            <button class="btn btn-secondary service-detail-btn" type="button" data-title="Cenas especiales" data-description="Experiencias gastronómicas para grupos pequeños y reuniones privadas.">Ver detalles</button>
+          </article>
+          <article class="service-card">
+            <h3>Eventos temáticos</h3>
+            <p>Decoración, música y banquete con estilo mexicano para cada ocasión.</p>
+            <button class="btn btn-secondary service-detail-btn" type="button" data-title="Eventos temáticos" data-description="Decoración, música y banquete con estilo mexicano para cada ocasión.">Ver detalles</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-light" id="carta">
+      <div class="container">
+        <span class="eyebrow">Carta</span>
+        <h2>Descubre nuestros platillos</h2>
+        <p>Sabores mexicanos auténticos, desde entradas y tacos hasta postres tradicionales y bebidas artesanales.</p>
+        <div class="gallery-grid menu-grid">
+          <article class="menu-item">
+            <h3>Entradas</h3>
+            <p>Queso fundido, guacamole, totopos y antojitos para compartir.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Platos fuertes</h3>
+            <p>Mole, cochinita, chiles rellenos y cortes seleccionados con guarnición.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Tacos y antojitos</h3>
+            <p>Tacos al pastor, carnitas, quesadillas, sopes y más clásicos mexicanos.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Postres</h3>
+            <p>Flan, arroz con leche, churros y nieves tradicionales.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-dark" id="promociones">
+      <div class="container">
+        <span class="eyebrow light">Promociones</span>
+        <h2>Ofertas especiales</h2>
+        <p>Aprovecha nuestros paquetes de temporada para eventos y menús con precios especiales.</p>
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>Paquete boda</h3>
+            <p>Menú completo, decoración y áreas privadas para tu gran día.</p>
+          </article>
+          <article class="service-card">
+            <h3>Promoción corporativa</h3>
+            <p>Descuentos para grupos grandes y paquetes especiales para reuniones de negocio.</p>
+          </article>
+          <article class="service-card">
+            <h3>Festividades</h3>
+            <p>Menús temáticos y postres tradicionales para fechas especiales.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-light" id="galeria">
+      <div class="container">
+        <span class="eyebrow">Galería</span>
+        <h2>Espacios y sabores</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item" data-title="Salón principal" data-description="Ideal para reuniones y banquetes."></div>
+          <div class="gallery-item" data-title="Terraza" data-description="Ambiente fresco y acogedor."></div>
+          <div class="gallery-item" data-title="Jardín" data-description="Perfecto para eventos al aire libre."></div>
+          <div class="gallery-item" data-title="Platillo especial" data-description="Cocina mexicana tradicional con estilo moderno."></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-dark" id="reservaciones">
+      <div class="container">
+        <span class="eyebrow light">Reservaciones</span>
+        <h2>Reserva tu espacio con anticipación</h2>
+        <p>Contacta a nuestro equipo para cotizar banquetes, reservar mesas o planear eventos privados con la mejor atención.</p>
+        <div class="contact-info">
+          <div><strong>Tel:</strong> +52 55 1234 5678</div>
+          <div><strong>Email:</strong> reservas@casaclubacademico.com.mx</div>
+          <div><strong>Horario:</strong> Lun-Dom 10:00 - 22:00</div>
+        </div>
+        <div class="hero-actions" style="margin-top: 1.5rem;">
+          <a href="#contacto" class="btn btn-primary">Enviar solicitud</a>
+          <button class="btn btn-secondary" id="reserveInfoButton" type="button">Ver opciones</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-contact" id="contacto">
+      <div class="container contact-grid">
+        <div>
+          <span class="eyebrow">Contacto</span>
+          <h2>Reserva tu mesa o cotiza tu evento</h2>
+          <p>Escríbenos o llámanos para que nuestro equipo te ayude a planear la experiencia perfecta.</p>
+          <div class="contact-info">
+            <div><strong>Tel:</strong> +52 55 1234 5678</div>
+            <div><strong>Email:</strong> contacto@casaclubacademico.com.mx</div>
+            <div><strong>Horario:</strong> Lun-Dom 10:00 - 22:00</div>
+          </div>
+        </div>
+        <form id="contactForm" class="contact-form">
+          <label>Nombre completo<input type="text" id="name" placeholder="Tu nombre" required /></label>
+          <label>Teléfono<input type="tel" id="phone" placeholder="+52 55 1234 5678" required /></label>
+          <label>Correo electrónico<input type="email" id="email" placeholder="correo@ejemplo.com" required /></label>
+          <label>Mensaje<textarea id="message" rows="4" placeholder="Cuéntanos sobre tu evento" required></textarea></label>
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+          <p class="form-feedback" id="formFeedback" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>Casa Club del Académico © 2026. Restaurante y espacio para eventos en México.</p>
+      <p>Síguenos en Facebook: <a href="https://www.facebook.com/casaclubdelacademico/" target="_blank" rel="noreferrer">Facebook</a></p>
+    </div>
+  </footer>
+
+  <div class="modal" id="galleryModal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">×</button>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDescription"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
